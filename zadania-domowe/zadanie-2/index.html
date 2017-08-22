@@ -1,10 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Formularz</title>
 </head>
+
 <body>
-    <p>Zadanie 2</p>
+    <form action="https://formspree.io/1arekkarp@gmail.com" method="POST">
+
+        <label for="imie">imie:</label> <br/>
+        <input type="text" name="imie" id="imie" /> <br/><br/>
+
+        <label for="nazwisko">nazwisko:</label> <br/>
+        <input type="text" name="nazwisko" id="nazwisko" /> <br/><br/>
+        
+        <label for="email">mail:</label> <br/>
+        <input type="email" name="mail" id="email" /> <br/><br/>
+        
+        <label for="telefon">telefon:</label> <br/>
+        <input type="text" name="telefon" id="telefon" /> <br/><br/>
+
+        <select name="miasto">
+          <option value="Warszawa">Warszawa</option>
+          <option value="Kraków" selected>Kraków</option>
+          <option value="Gdańsk">Gdańsk</option>
+        </select> <br/><br/>
+        
+        <input type="radio" name="płeć" value="mężczyzna" checked>mężczyzna<br/>
+        <input type="radio" name="płeć" value="kobieta">kobieta<br/><br/>
+        
+         <input type="checkbox" name="zgoda" value="zgoda na przetwarzanie danych osobowych"> Zgoda na przetwarzanie danych osobowych...<br/><br/>
+
+        <label for="wiadomosc">Wiadomość:</label> <br/>
+        <textarea maxlength="1000" name="wiadomosc" id="wiadomosc"></textarea>
+        <br/><br/>
+
+        <input type="submit" value="Wio">
+    </form>
+
 </body>
+
 </html>
