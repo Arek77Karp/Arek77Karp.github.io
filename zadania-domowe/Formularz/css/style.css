@@ -1,0 +1,31 @@
+body {
+    background: #213b50;
+    color:#ffffff;
+}
+
+form {
+    width: 200px;
+    background: #213b50;
+}
+
+input {
+    width: 100%;
+    background: #2b4a64;
+}
+
+select {
+    width: 100%;
+    background: #2b4a64;
+    color: white;
+}
+
+textarea {
+    background: #2b4a64;
+    width: 100%;
+}
+input[type="submit"]{
+    color: white;
+    background: green;
+    width: auto;
+}
+
