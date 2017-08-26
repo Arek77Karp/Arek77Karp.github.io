@@ -1,3 +1,32 @@
-body{
-    background-color: red;
+body {
+    margin: 0;
 }
+
+#menu .menu-item {
+    display: inline;
+}
+img{
+    width: 20%;
+}
+#main-header-text {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    left: 50%;
+    background: <li class="menu-item"><a href="#portfolio">potrfolio</a></li>
+}
+
+#header{
+    background-color: red;
+    background-image: image(css/img/header-background.img);
+    display: 100%;
+    
+}
+
+form{
+    background-color: #1953A2;
+}
+
+
