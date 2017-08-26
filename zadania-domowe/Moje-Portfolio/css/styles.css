@@ -5,9 +5,11 @@ body {
 #menu .menu-item {
     display: inline;
 }
-img{
+
+img {
     width: 20%;
 }
+
 #main-header-text {
     position: absolute;
     top: 50%;
@@ -18,15 +20,12 @@ img{
     background: <li class="menu-item"><a href="#portfolio">potrfolio</a></li>
 }
 
-#header{
+#header {
     background-color: red;
     background-image: image(css/img/header-background.img);
     display: 100%;
-    
 }
 
-form{
+form {
     background-color: #1953A2;
 }
-
-
