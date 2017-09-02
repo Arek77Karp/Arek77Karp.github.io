@@ -1,31 +1,123 @@
 body {
-    margin: 0;
-}
-
-#menu .menu-item {
-    display: inline;
-}
-
-img {
-    width: 20%;
-}
-
-#main-header-text {
-    position: absolute;
-    top: 50%;
-    font-size: 50px;
-    font-weight: 700;
-    color: #fff;
-    left: 50%;
-    background: <li class="menu-item"><a href="#portfolio">potrfolio</a></li>
+    margin: 0px;
 }
 
 #header {
-    background-color: red;
-    background-image: image(css/img/header-background.img);
-    display: 100%;
+    background-image: url(img/header-background.jpg);
+    text-align: center;
+    padding: 180px;
 }
 
-form {
-    background-color: #1953A2;
+#imie-w-nag {
+    color: white;
+    font-size: 150px;
+}
+
+#nazwisko-w-nag {
+    font-size: 150px;
+}
+
+#profesja {
+    color: white;
+}
+
+#naglowek-o-mnie {
+    text-align: center;
+    font-size: 50px;
+}
+#sekcja-o-mnie{
+      
+}
+
+#omnie-tresc{
+    width: 40%;
+    text-align:left;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+#sekcja-o-mnie img {
+    width: 20%;
+    float: left;
+    margin-left: 12%;
+    display: inline-block;
+    
+}
+
+#umiejetnosci {
+    /*sekcja umiejetnosci*/
+    text-align: center;
+    margin-top: 20%;
+}
+
+#moje-umiejetnosci {
+    /*naglowek sekcji moje umiejetnosci*/
+    font-size: 40px;
+}
+
+#opis-umiejetnosci {
+    /*opis umiejetnosci*/
+    font-size: 20px;
+ 
+}
+
+#ikonki img {
+    /*ikonki umiejetnosci*/
+    padding: 2%;
+    width: 5%;
+    display: inline-block;
+   
+}
+
+#opis-ikonek {
+    /*opis-ikonek*/
+    font-size: 25px;
+    text-align: center;
+}
+
+#menu .menu-item {
+    /*elementy menu*/
+    padding: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#menu {
+    /* menu*/
+    position: fixed;
+    top: 0px;
+    left: 800px;
+}
+
+#moje-portfolio img {
+    display: inline-block;
+    width: 33%; 
+   
+}
+#moje-portfolio {
+    font-size: 0px;
+    margin-left: 5%;
+}
+#naglowek-potrfolio {
+    font-size: 50px;
+    text-align: center;
+}
+#contact {
+    background-color: #213b50 ;
+    width: 50%;
+    display: inline-block;
+}
+#formularz {
+    width: 50%;
+    background-color: #213b50;
+}
+#imie-i-nazwisko {
+   
+}
+#stopa {
+    display: flex;
+    margin-top: 10%;
+}
+input[type="text"] {
+    color: #213b50;
 }

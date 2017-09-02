@@ -3,47 +3,89 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Moje-portfolio</title>
+    <title>portfolio-od-nowa</title>
     <link rel="stylesheet" href="css/styles.css">
 
 
 </head>
 
 <body>
-    <nav id="menu">
-        <ul>
-            <li class="menu-item"><a href="about">o mnie</a></li>
-            <li class="menu-item"><a href="#skils">umiejętności</a></li>
-            <li class="menu-item"><a href="#portfolio">potrfolio</a></li>
-            <li class="menu-item"><a href="#contact">kontakt</a></li>
-        </ul>
-    </nav>
-
     <header id="header">
-
-        <h1 id="main-header-text">Arek Karp</h1>
-
-    </header><br/>
+        <a id="imie-w-nag">Arek</a>
+        <a id="nazwisko-w-nag">Karp</a>
+        <h1 id="profesja">Front-End Developer</h1>
+    </header>
     <div>
-
-        <img src="css/img/jan-nowak.jpg"/>
-
+        <!--menu-->
+        <nav id="menu">
+            <ul>
+                <li class="menu-item"><a href="#sekcja-o-mnie">o mnie</a></li>
+                <li class="menu-item"><a href="#umiejetnosci">umiejętności</a></li>
+                <li class="menu-item"><a href="#moje-portfolio">potrfolio</a></li>
+                <li class="menu-item"><a href="#contact">kontakt</a></li>
+            </ul>
+        </nav>
+        <h1 id="naglowek-o-mnie">O mnie</h1>
+        <!--naglowek 'o mnie' i zdjecie-->
+        <div id="sekcja-o-mnie">
+            <img src="css/img/jan-nowak.jpg"/>
+            <a id="omnie-tresc">
+           wielu projektów webowych dla klientów w Polski i zagranicy. Występował jako prelegent na spotkaniach WordUp, gdzie opowiadał o możliwościach systemu WordPress CMS przy tworzeniu stron internetowych wielu projektów webowych dla klientów w Polski i zagranicy. Występował jako prelegent na spotkaniach WordUp, gdzie opowiadał o możliwościach systemu WordPress CMS przy tworzeniu stron internetowychwielu projektów webowych dla klientów w Polski i zagranicy. Występował jako prelegent na spotkaniach WordUp, gdzie opowiadał o możliwościach systemu WordPress CMS przy tworzeniu stron internetowych
+       </a>
+        </div>
+        <!--Sekcja umiejetnosci-->
+        <div id="umiejetnosci">
+            <!--naglowek sekcji umiejetnosci-->
+            <p id="moje-umiejetnosci">Moje umiejętności</p>
+            <!--opis-umiejetnosci-->
+            <p id="opis-umiejetnosci">
+                moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci moje umiejetnosci
+            </p><br/><br/>
+            <!--ikonki umiejetnosci-->
+            <div id="ikonki">
+                <br/>
+                <img src="css/icons/html5.png" />
+                <img src="css/icons/css3.png" />
+                <img src="css/icons/js.png" />
+                <img src="css/icons/jquery.png" />
+            </div>
+            <a id="opis-ikonek">HTML5    CSS3   JavaScript   jQuery</a>
+        </div>
     </div>
 
-    <form action="https://formspree.io/1arekkarp@gmail.com" method="POST">
-
-        <label for="imie">Imię i Nazwisko:</label> <br/>
-        <input type="text" name="imie" id="imie" /> <br/><br/>
-
-        <label for="email">mail:</label> <br/>
-        <input type="email" name="mail" id="email" /> <br/><br/>
-
-        <label for="wiadomosc">Wiadomość:</label> <br/>
-        <textarea maxlength="1000" name="wiadomosc" id="wiadomosc"></textarea>
-        <br/><br/>
-
-        <input type="submit" value="Wio">
-    </form>
+    <div id="moje-portfolio">
+        <h1 id="naglowek-potrfolio">Moje portfolio</h1><br/>
+        <img src="css/img/portfolio1.jpg" />
+        <img src="css/img/portfolio2.jpg" />
+        <img src="css/img/portfolio4.jpg" />
+    </div>
+    <div id="stopa">
+        <div id="contact">
+            <div id="contact-content">
+                <div id="imie-i-nazwisko">
+                    <p id="imie"> Arek </p>
+                </div>
+                <p id="nazwisko">Karp</p>
+                <p id="adres">ul. Sikorskiego 7a/17 95-04 Kolszki</p>
+                <a href="mailto:1arekkarp@gmail.com">1arekkarp@gmail.com</a>
+            </div>
+        </div>
+        <div id="formularz">
+            <form action="https://formspree.io/1arekkarp@gmail.com" method="POST">
+                <label for="imie">Imię i Nazwisko:</label> <br/>
+                <input type="text" name="imie" id="imie" /> <br/><br/>
+                <label for="email">E-mail:</label> <br/>
+                <input type="email" name="mail" id="email" /> <br/><br/>
+                <label for="wiadomosc">Treść wiadomości:</label> <br/>
+                <textarea maxlength="1000" name="wiadomosc" id="wiadomosc"></textarea>
+                <br/><br/>
+                <input type="submit" value="Wio">
+            </form>
+        </div>
+    </div>
+    <footer>
+        Copyright © Arek Karp
+    </footer>
 </body>
 
 </html>
