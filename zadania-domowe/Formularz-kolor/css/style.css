@@ -1,31 +1,65 @@
-body {
-    background: #213b50;
-    color:#ffffff;
-}
-
 form {
-    width: 200px;
     background: #213b50;
+    color: #fff;
+    width: 45%;
+    padding: 20px;
 }
 
-input {
-    width: 100%;
-    background: #2b4a64;
+form input[type="text"] {
+    background-color: #2b4a64;
+    width: 50%;
+    height: 30px;
+    border-style: solid;
+    border-color: #2b4a64;
 }
 
-select {
-    width: 100%;
-    background: #2b4a64;
-    color: white;
+form input[type="email"] {
+    width: 50%;
+    background-color: #2b4a64;
+    border-color: #2b4a64;
+    border-style: solid;
+    height: 30px;
 }
 
 textarea {
-    background: #2b4a64;
-    width: 100%;
-}
-input[type="submit"]{
-    color: white;
-    background: green;
-    width: auto;
+    width: 50%;
+    background-color: #2b4a64;
+    height: 90px;
+    border-color: #2b4a64;
 }
 
+select {
+    width: 50%;
+    background-color: #2b4a64;
+    color: #fff;
+    border: 0;
+    height: 30px;
+}
+
+form input[type="submit"] {
+    background-color: springgreen;
+    border: 0;
+    width: 15%;
+    height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+form input[type="text"]:focus {
+    background-color: #4e708c;
+    color: #fff;
+    border-color: #fff;
+}
+
+form input[type="email"]:focus {
+    background-color: #4e708c;
+    color: #fff;
+    border-color: #fff;
+}
+
+textarea:focus {
+    background-color: #4e708c;
+    color: #fff;
+    border-color: #fff;
+}
