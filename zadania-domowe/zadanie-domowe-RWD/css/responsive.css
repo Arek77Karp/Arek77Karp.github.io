@@ -1,0 +1,72 @@
+/* Mniej niż 992px */
+
+@media screen and (max-width: 991px) {
+    #zdjecie-2 {
+        display: none;
+    }
+    #zdjecie-1 {
+        display: inline-block;
+    }
+    #zdjecie-1 img {
+        height: 50vh;
+    }
+    #main-header {
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+
+/* Pomiędzy 992px - 1170px  */
+
+@media screen and (min-width: 992px) and (max-width: 1170px) {
+    #zdjecie-1 {
+        display: none;
+    }
+    #main-header {
+        display: inline-block;
+        position: relative;
+        margin-left: 50px;
+    }
+    #zdjecie-2 {}
+    #zdjecie-2 img {
+        height: 70vh;
+    }
+    #text {
+        display: inline-block;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 10px;
+        text-align: left;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 70px;
+        margin-right: 30px;
+    }
+}
+
+
+/* Więcej niż 1170px */
+
+@media screen and (min-width: 1171px) {
+    #zdjecie-1 {
+        display: none;
+    }
+    #zdjecie-2 {
+        display: none;
+    }
+    #main-header {
+        background: url(obrazy/man-1.jpg);
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+        display: inline-block;
+    }
+    #text {
+        text-transform: uppercase;
+        margin-top: 33vh;
+        margin-left: 3vw;
+        color: #fff;
+    }
+}
