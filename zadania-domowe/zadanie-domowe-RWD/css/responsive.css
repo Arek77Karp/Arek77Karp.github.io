@@ -26,7 +26,8 @@
     #main-header {
         display: inline-block;
         position: relative;
-        margin-left: 50px;
+        margin-left: 20%;
+        margin-right: auto;
     }
     #zdjecie-2 {}
     #zdjecie-2 img {
