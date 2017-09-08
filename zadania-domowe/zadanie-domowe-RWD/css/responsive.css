@@ -4,11 +4,9 @@
     #zdjecie-2 {
         display: none;
     }
-    #zdjecie-1 {
-        display: inline-block;
-    }
     #zdjecie-1 img {
-        height: 50vh;
+        height: auto;
+        width: 100%;
     }
     #main-header {
         text-align: center;
@@ -26,12 +24,10 @@
     #main-header {
         display: inline-block;
         position: relative;
-        margin-left: 20%;
-        margin-right: auto;
     }
     #zdjecie-2 {}
     #zdjecie-2 img {
-        height: 70vh;
+        width: 100%
     }
     #text {
         display: inline-block;
