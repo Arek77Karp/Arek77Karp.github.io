@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+}
+
+section {
+    padding: 60px 0;
+}
+
+section > p {
+    margin-bottom: 70px;
+}
+
+/* ---------------- menu nawigacyjne --------------- */
+
+#main-nav {
+    background-color: transparent;
+    border: 0;
+    transition: all 0.4s;
+}
+
+#main-nav.scrolled {
+    background-color: rgba(14, 216, 214, 0.85);
+}
+
+#main-nav .navbar-collapse .navbar-nav li a {
+    color: #FFFFFF;
+    transition: all 0.4s;
+}
+
+#main-nav .navbar-collapse .navbar-nav li a:hover {
+    color: #0ED8D6;
+}
+
+#main-nav .navbar-collapse .navbar-nav li a {
+    transition: all 0.4s;
+}
+
+/*---------------- naglówek ---------------*/
+
+#main-header {
+    height: 100vh;
+    background: url(../img/header-background.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#main-header .inner {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+#main-header .inner h1 {
+    color: #FFFFFF;
+    margin: 45px 0;
+    font-size: 4em;
+}
+
+#main-header .inner h2 {
+    color: #FFFFFF;
+    font-size: 2.5em;
+    font-weight: thin;
+}
