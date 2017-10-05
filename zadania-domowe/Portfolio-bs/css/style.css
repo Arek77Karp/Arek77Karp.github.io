@@ -114,11 +114,6 @@ section {
     position: relative;
 }
 
-.portfolio-items {
-    text-align: center;
-    font-size: 0;
-}
-
 .single-portfolio-item-mask {
     background: rgba(42, 61, 79, 0.8);
     height: 100%;
@@ -126,7 +121,11 @@ section {
     opacity: 0;
     position: absolute;
     font-size: initial;
+    left: 0;
+
 }
+
+
 
 .single-portfolio-item-mask:hover {
     opacity: 1;
@@ -208,15 +207,40 @@ section {
     margin-top: 100px;
 }
 
-#contact input {
+#contact input,
+#contact textarea {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 15px;
     border: 0 #2b4a64;
     background-color: #2b4a64;
+    color: #fff;
 }
 
-#contact input:focus {
+#contact input:focus,
+#contact textarea:focus {
     border: 0 #426684;
     background-color: #426684;
+}
+
+#contact input.btn-lg {
+    text-transform: uppercase;
+    width: auto;
+    border: 1px solid #1ac056;
+    background-color: #1ac056;
+    font-weight: 600;
+}
+
+#contact input.btn-lg:hover {
+    color: #1ac056;
+    background-color: #fff;
+    transition: all 0.4s;
+}
+
+/* ----------------- footer ------------------ */
+
+.page-footer {
+    background-color: #142634;
+    color: #fff;
+    padding: 0 100px;
 }
