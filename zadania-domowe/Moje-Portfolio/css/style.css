@@ -2,5 +2,43 @@ body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     font-weight: 300;
-
 }
+
+/*------------- menu nawigacyjne ---------------*/
+
+#main-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#main-nav {
+    position: fixed;
+    text-align: right;
+    background-color: #fff;
+    width: 100%;
+}
+
+#main-nav a {
+    font-weight: 300;
+    color: #1ac056;
+    text-decoration: none;
+}
+
+#main-nav a:hover {
+    color: #291f1a;
+}
+
+
+/*----------------- naglówek -------------------*/
+
+/* ------- style dla nagłówków sekcji --------- */
+
+/* --------- style dla całych sekcji ---------- */
+
+/* ------------------ o mnie ------------------ */
+
+/* ------------ moje umiejętności ------------- */
+
+/* ----------- kontakt lewa kolumna------------ */
+
+/* ----------- kontakt prawa kolumna ---------- */
