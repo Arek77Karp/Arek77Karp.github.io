@@ -27,62 +27,45 @@
 </head>
 
 <body>
-
     <!--------------- menu nawigacyjne ----------------->
     <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#o-mnie">o mnie</a></li>
-                    <li><a href="#umiejetnosci">umiejętności</a></li>
-                    <li><a href="#portfolio">portfolio</a></li>
-                    <li><a href="#kontakt">kontakt</a></li>
-                </ul>
-            </div>
-        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">o mnie</a></li>
+            <li><a href="#skills">umiejętności</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">kontakt</a></li>
+        </ul>
     </nav>
 
     <!------------------- naglówek -------------------->
     <header id="main-header" class="text-center">
-        <div class="inner">
-            <h1>Arek <strong>Karp</strong></h1>
+        <div class="main-header-content">
+            <h1>Arek<span> Karp</span></h1>
             <h2>Front-End Developer</h2>
         </div>
     </header>
 
-    <!------------------- o mnie ---------------------->
-    <section id="o-mnie" class="text-center">
-        <h1>O <strong>mnie</strong></h1>
+    <!------------------- o mnie --------------------->
+    <section id="about" class="text-center">
+        <h2>O<span> mnie</span></h2>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="image-container">
-                        <img src="img/Arek-K.JPG">
-                    </div>
+                    <img src="img/zdj%C4%99cie.JPG">
                 </div>
-                <div class="col-md-6">
-                    <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae harum enim placeat commodi culpa voluptates quod natus minima, voluptate soluta a iste ut. Laboriosam expedita, quia nesciunt quidem rem minima id dolorem unde officiis animi quibusdam possimus et corporis, rerum recusandae laudantium minus, nostrum velit nam exercitationem! Nostrum, debitis, fugit!animi quibusdam possimus et corporis, rerum recusandae laudantium minus, nostrum velit nam exercitationem! Nostrum, debitis, fugit!</p>
+                <div class="col-md-6 text-left">
+                    <article>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente magni cum ipsum, cupiditate reiciendis quae adipisci temporibus reprehenderit, quod praesentium perferendis, maiores. Reprehenderit suscipit debitis sapiente temporibus reiciendis veritatis mollitia magni iure praesentium, quos aut corporis excepturi et eligendi perferendis aliquid sunt, sit omnis fugit exercitationem perspiciatis. Iure facilis voluptas exercitationem dignissimos velit suscipit similique totam nobis iusto? Maiores sunt est quam maxime, earum ab blanditiis! Odit, cumque saepe, quasi illum exercitationem doloremque enim tempore maiores, iste officiis repudiandae? Quibusdam.</p>
+                    </article>
                 </div>
             </div>
         </div>
     </section>
-
-    <!------------------- umiejetnosci ---------------------->
-    <section id="umiejetnosci" class="text-center">
-        <h1>Moje<strong> umiejętności</strong></h1>
-        <p class="col-md-1"></p>
-        <p class="col-md-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis iusto quas distinctio rerum, dignissimos architecto natus. Enim quas, modi officia. Aliquam eveniet veniam vitae, accusantium ducimus harum laborum doloremque illum in corrupti obcaecati.</p>
-        <p class="col-md-1"></p>
+    <div id="linia" class="container"></div>
+    <!-------------- moje umiejętności --------------->
+    <section id="skills" class="text-center">
+        <h2>Moje<span> umiejętności</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta quis similique minus, laboriosam expedita iure ea voluptatem tempora ad enim, consequuntur magnam assumenda in velit. Deleniti incidunt molestias, dignissimos dolore?</p>
         <div class="container">
             <div class="row">
                 <div class="col-sm-2"></div>
@@ -106,63 +89,40 @@
             </div>
         </div>
     </section>
-
-    <!------------------- moje portfolio ---------------------->
-    <section id="portfolio" class="text-center">
-        <h1>Moje<strong> potrfolio</strong></h1>
-
+    <!------------------- kontakt -------------------->
+    <section id="contact" class="text-left">
         <div class="container">
             <div class="row">
-                <!-- sterowanie siatka -->
-                <div class="col-md-4">
-                    <!-- opakowuje zdjecie i napisy, tutaj wchodzi bialy background -->
-                    <div class="single-portfolio-item">
-                        <!-- opakowuje zdjecie, overflow:hidden, zeby zablokowac wyjscie zdjecia przy transform -->
-                        <div class="portfolio-image-container">
-                            <!-- div, ktory trzyma zdjecie, ustawiona wysokosc na sztywno -->
-                            <div class="portfolio-image" id="portfolio-image-1">
-                                <!-- maska -->
-                                <div class="portfolio-image-mask">
-                                    <i class="fa fa-link"></i>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-6">
+                    <h2>Arek<span> Karp</span></h2>
+                    <address>
+                        ul.Sikorskiego 7A/17<br/>
+                        95-040 Koluszki<br/><br/>
+                        tel:885 055 336<br/>
+                        e-mail:<a id="mail" href="mailto:1arekkarp@gmail.com"> 1arekkarp@gmail.com</a>
+                    </address>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/arek.karp.96"><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="single-portfolio-item">
-                        <div class="portfolio-image-container">
-                            <div class="portfolio-image" id="portfolio-image-2">
-                                <div class="portfolio-image-mask">
-                                    <div class="zawartosc-maski">
-                                        <h3>Lorem ipsum</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia laudantium est adipisci consequatur, vitae laudantium est adipisci provident.</p>
-                                        <h4>Wykorzystywane technologie:</h4>
-                                        <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, JQuery</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="single-portfolio-item">
-                        <div class="portfolio-image-container">
-                            <div class="portfolio-image" id="portfolio-image-3">
-                                <div class="portfolio-image-mask">
-                                    <i class="fa fa-link"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+                <form class="col-md-6">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your e-mail">
+                    <input type="tel" placeholder="Your phone">
+
+                </form>
+
             </div>
         </div>
-
     </section>
 
 
 
+    <!------------------- skrypty -------------------->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
