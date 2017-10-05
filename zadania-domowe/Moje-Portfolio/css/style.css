@@ -3,6 +3,7 @@ body {
     color: #291f1a;
     font-weight: 300;
     margin: 0;
+    line-height: 1.8em;
 }
 
 /*------------- menu nawigacyjne ---------------*/
@@ -71,7 +72,7 @@ body {
 }
 
 #about {
-    padding: 0 80px 100px;
+    padding: 0 80px 450px;
     background-color: #f9fcfe;
 }
 
@@ -101,6 +102,7 @@ section h2 {
     font-weight: 300;
     margin-bottom: 35px;
     margin-top: 60px;
+    text-align: center;
 }
 
 section h2 span {
@@ -109,6 +111,22 @@ section h2 span {
 }
 
 /* ------------ moje umiejętności ------------- */
+
+#skills {
+    padding: 0 80px 100px;
+}
+
+#skills > p {
+    text-align: center;
+}
+
+#skills figure {
+    display: inline-block;
+}
+
+#skills-icons {
+    text-align: center;
+}
 
 /* ----------- kontakt lewa kolumna------------ */
 
