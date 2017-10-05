@@ -62,11 +62,51 @@ body {
     font-weight: 500;
 }
 
-/* ------- style dla nagłówków sekcji --------- */
-
 /* --------- style dla całych sekcji ---------- */
 
 /* ------------------ o mnie ------------------ */
+
+#about h2 {
+    text-align: center;
+}
+
+#about {
+    padding: 0 80px 100px;
+    background-color: #f9fcfe;
+}
+
+#about figure img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 15px solid #fff;
+    border-radius: 15px;
+}
+
+#about figure {
+    width: 50%;
+    margin: 0;
+    float: left;
+    text-align: center;
+}
+
+#about article {
+    width: 50%;
+    float: left;
+}
+
+/* ------- style dla nagłówków sekcji --------- */
+
+section h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 35px;
+    margin-top: 60px;
+}
+
+section h2 span {
+    color: #1ac056;
+    font-weight: 500;
+}
 
 /* ------------ moje umiejętności ------------- */
 
