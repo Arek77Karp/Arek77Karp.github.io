@@ -13,12 +13,16 @@ body {
 }
 
 #main-nav.scrolled {
-    background-color: rgba(14, 216, 214, 0.85);
+    background-color: rgba(14, 146, 216, 0.48);
 }
 
 #main-nav .nav a {
     padding-right: 3em;
     color: #ffffff;
+}
+
+#main-nav .nav a:hover {
+    color: #1ac056;
 }
 
 /*----------------- naglówek -------------------*/
