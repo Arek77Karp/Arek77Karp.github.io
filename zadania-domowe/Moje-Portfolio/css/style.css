@@ -2,6 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     font-weight: 300;
+    margin: 0;
 }
 
 /*------------- menu nawigacyjne ---------------*/
@@ -14,7 +15,8 @@ body {
 #main-nav {
     position: fixed;
     text-align: right;
-    background-color: #fff;
+    right: 20px;
+    background-color: transparent;
     width: 100%;
 }
 
@@ -22,14 +24,43 @@ body {
     font-weight: 300;
     color: #1ac056;
     text-decoration: none;
+    padding: 10px;
 }
 
 #main-nav a:hover {
     color: #291f1a;
 }
 
-
 /*----------------- naglówek -------------------*/
+
+#main-header {
+    background: url(../css/img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.main-header-content {
+    padding: 30vh;
+    text-align: center;
+    line-height: 0;
+}
+
+.main-header-content h1 {
+    font-family: 'Roboto';
+    font-size: 10em;
+    font-weight: lighter;
+}
+
+.main-header-content h2 {
+    font-weight: 100;
+    font-size: 3em;
+}
+
+.main-header-content h1 span {
+    color: #1ac056;
+    font-weight: 500;
+}
 
 /* ------- style dla nagłówków sekcji --------- */
 
